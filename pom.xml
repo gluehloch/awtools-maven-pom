@@ -2,9 +2,9 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>de.gluehloch</groupId>
-  <artifactId>gluehloch-maven-parent</artifactId>
-  <version>19</version>
+  <groupId>de.awtools</groupId>
+  <artifactId>awtools-maven-pom</artifactId>
+  <version>20</version>
 
   <packaging>pom</packaging>
   <url>http://www.gluehloch.de</url>
