@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <properties>
+    <title>Change Notes</title>
+    <author email="andre.winkler@web.de">Andre Winkler</author>
+  </properties>
+  <body>
+    <release version="awtools-maven-parent-pom-20" date="2011-30-10"
+         description="The new AWTools Maven parent POM.">
+      <action dev="andrewinkler" type="update" date="2011-30-10">
+        Some preparations for Maven 3.
+      </action>
+    </release>
+
+  </body>
+  <footer>
+    <legal>
+      Copyright (c) @year@ The 'swinger' Project All rights reserved.
+      $Revision: 2969 $ $Date: 2011-10-29 22:44:40 +0200 (Sa, 29 Okt 2011) $
+    </legal>
+  </footer>
+</document>
