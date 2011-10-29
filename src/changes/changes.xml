@@ -8,6 +8,9 @@
     <release version="awtools-maven-parent-pom-20" date="2011-30-10"
          description="The new AWTools Maven parent POM.">
       <action dev="andrewinkler" type="update" date="2011-30-29">
+        Update to slf4j 1.6.3.
+      </action>
+      <action dev="andrewinkler" type="update" date="2011-30-29">
         Update to JUnit 4.10.
       </action>
       <action dev="andrewinkler" type="update" date="2011-30-10">
