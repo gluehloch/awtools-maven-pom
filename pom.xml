@@ -182,24 +182,6 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>2.2</version>
-        <executions>
-          <execution>
-            <id>make-site</id>
-            <phase>deploy</phase>
-            <goals>
-              <goal>site</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <inputEncoding>${compiler.encoding}</inputEncoding>
-          <outputEncoding>${compiler.encoding}</outputEncoding>
-        </configuration>
-      </plugin>
-      <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <version>3.0</version>
         <executions>
@@ -209,7 +191,18 @@
               <goal>attach-descriptor</goal>
             </goals>
           </execution>
+          <execution>
+            <id>make-site</id>
+            <phase>deploy</phase>
+            <goals>
+              <goal>site</goal>
+            </goals>
+          </execution>          
         </executions>
+        <configuration>
+          <inputEncoding>${compiler.encoding}</inputEncoding>
+          <outputEncoding>${compiler.encoding}</outputEncoding>
+        </configuration>        
       </plugin>    
     </plugins>
     <extensions>
