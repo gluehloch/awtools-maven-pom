@@ -4,12 +4,12 @@
 
   <groupId>de.awtools</groupId>
   <artifactId>awtools-maven-pom</artifactId>
-  <version>21</version>
+  <version>22</version>
 
   <packaging>pom</packaging>
   <url>http://www.gluehloch.de</url>
-  <name>Gluehloch Parent POM</name>
-  <description>POM for all Gluehloch projects.</description>
+  <name>AWTools Parent POM</name>
+  <description>POM for all AWTools projects.</description>
 
   <licenses>
     <license>
@@ -22,12 +22,12 @@
 
   <scm>
     <connection>
-      scm:svn:https://andrewinkler@betoffice.svn.sourceforge.net/svnroot/betoffice/gluehloch-mvn-project/trunk/gluehloch-parent-pom
+      scm:git:https://github.com/gluehloch/awtools-maven-pom.git
     </connection>
     <developerConnection>
-      scm:svn:https://andrewinkler@betoffice.svn.sourceforge.net/svnroot/betoffice/gluehloch-mvn-project/trunk/gluehloch-parent-pom
+      scm:git:https://github.com/gluehloch/awtools-maven-pom.git
     </developerConnection>
-    <url>http://svn.sourceforge.net/viewcvs.cgi/betoffice</url>
+    <url>https://github.com/gluehloch/awtools-maven-pom.git</url>
   </scm>
 
   <repositories>
