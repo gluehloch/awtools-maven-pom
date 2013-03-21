@@ -4,7 +4,7 @@
 
   <groupId>de.awtools</groupId>
   <artifactId>awtools-maven-pom</artifactId>
-  <version>22</version>
+  <version>23</version>
 
   <packaging>pom</packaging>
   <url>http://www.gluehloch.de</url>
@@ -327,7 +327,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>cobertura-maven-plugin</artifactId>
-        <version>2.4</version>
+        <version>2.5.2</version>
       </plugin>
     </plugins>
   </reporting>
