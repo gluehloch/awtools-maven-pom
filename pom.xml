@@ -4,7 +4,7 @@
 
   <groupId>de.awtools</groupId>
   <artifactId>awtools-maven-pom</artifactId>
-  <version>24</version>
+  <version>25</version>
 
   <packaging>pom</packaging>
   <url>http://www.gluehloch.de</url>
@@ -142,7 +142,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.2</version>
+          <version>3.3</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -201,7 +201,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
-        <version>3.2</version>
+        <version>3.3</version>
         <executions>
           <execution>
             <id>attach-descriptor</id>
