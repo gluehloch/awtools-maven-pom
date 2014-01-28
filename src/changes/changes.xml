@@ -5,6 +5,13 @@
     <author email="andre.winkler@web.de">Andre Winkler</author>
   </properties>
   <body>
+    <release version="awtools-maven-parent-pom-25" date="2014-01-27"
+         description="Update.">
+      <action dev="andrewinkler" type="update" date="2014-01-27">
+        Updated Maven site plugin 3.2 to 3.3.
+      </action>         
+    </release>
+
     <release version="awtools-maven-parent-pom-24" date="2013-06-09"
          description="Update.">
       <action dev="andrewinkler" type="update" date="2011-10-29">
