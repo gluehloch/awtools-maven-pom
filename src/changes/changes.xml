@@ -13,6 +13,9 @@
       <action dev="andrewinkler" type="update" date="2015-01-07">
         Update to MASTER-POM version 2.
       </action>
+      <action dev="andrewinkler" type="remove" date="2015-01-08">
+        Removed the distribution management.
+      </action>
     </release>
 
     <release version="awtools-maven-parent-pom-25" date="2014-01-27"
