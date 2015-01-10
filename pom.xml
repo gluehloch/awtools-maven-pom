@@ -65,6 +65,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <site>
+      <id>gluehloch-repository</id>
+      <url>scp://maven.gluehloch.de/var/www/projects.gluehloch/pom/awtools-parent-pom</url>
+    </site>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
