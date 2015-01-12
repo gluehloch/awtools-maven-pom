@@ -5,7 +5,7 @@
     <author email="andre.winkler@web.de">Andre Winkler</author>
   </properties>
   <body>
-    <release version="awtools-maven-parent-pom-26" date="2015-01-07"
+    <release version="awtools-maven-parent-pom-26" date="2015-01-12"
          description="Update.">
       <action dev="andrewinkler" type="update" date="2014-11-01">
         Updated to the new MASTER-POM.
