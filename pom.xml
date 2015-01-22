@@ -7,12 +7,12 @@
   <parent>
     <groupId>de.awtools</groupId>
     <artifactId>master-pom</artifactId>
-    <version>2</version>
+    <version>3</version>
   </parent>
 
   <groupId>de.awtools</groupId>
   <artifactId>awtools-maven-pom</artifactId>
-  <version>26</version>
+  <version>27</version>
 
   <packaging>pom</packaging>
   <url>http://www.gluehloch.de</url>
