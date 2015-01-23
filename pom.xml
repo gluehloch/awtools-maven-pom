@@ -18,6 +18,36 @@
   <url>http://www.gluehloch.de</url>
   <name>AWTools Parent POM</name>
   <description>POM for all AWTools projects.</description>
+  
+  <repositories>
+    <!-- AWTools | Gluehloch | Betoffice Repository -->
+    <repository>
+      <id>awtools</id>
+      <name>AWTools Repository</name>
+      <url>http://maven.gluehloch.de/repository</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>awtools-snap</id>
+      <name>AWTools Snapshot Repository</name>
+      <url>http://maven-snap.gluehloch.de/repository</url>
+      <releases>
+        <enabled>false</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>warn</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+    </repository>
+  </repositories>
 
   <dependencies>
     <!--  Logging -->
