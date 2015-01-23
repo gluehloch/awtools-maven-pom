@@ -19,6 +19,10 @@
   <name>AWTools Parent POM</name>
   <description>POM for all AWTools projects.</description>
   
+  <!--
+    | The build server like this repository reference, because he does not
+    | known where he can find the remote repository for the parent pom. 
+  -->
   <repositories>
     <!-- AWTools | Gluehloch | Betoffice Repository -->
     <repository>
