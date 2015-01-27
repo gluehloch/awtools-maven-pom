@@ -7,17 +7,70 @@
   <parent>
     <groupId>de.awtools</groupId>
     <artifactId>master-pom</artifactId>
-    <version>2</version>
+    <version>3</version>
   </parent>
 
   <groupId>de.awtools</groupId>
   <artifactId>awtools-maven-pom</artifactId>
-  <version>26</version>
+  <version>27</version>
 
   <packaging>pom</packaging>
   <url>http://www.gluehloch.de</url>
   <name>AWTools Parent POM</name>
   <description>POM for all AWTools projects.</description>
+  
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>
+      scm:git:ssh@github.com:gluehloch/awtools-maven-pom.git
+    </connection>
+    <developerConnection>
+      scm:git:ssh@github.com:gluehloch/awtools-maven-pom.git
+    </developerConnection>
+    <url>https://github.com/gluehloch/awtools-maven-pom</url>
+  </scm>
+
+  <!--
+    | The build server like this repository reference, because he does not
+    | known where he can find the remote repository for the parent pom. 
+  -->
+  <repositories>
+    <!-- AWTools | Gluehloch | Betoffice Repository -->
+    <repository>
+      <id>awtools</id>
+      <name>AWTools Repository</name>
+      <url>http://maven.gluehloch.de/repository</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>awtools-snap</id>
+      <name>AWTools Snapshot Repository</name>
+      <url>http://maven-snap.gluehloch.de/repository</url>
+      <releases>
+        <enabled>false</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>warn</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+    </repository>
+  </repositories>
 
   <dependencies>
     <!--  Logging -->
