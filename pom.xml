@@ -19,6 +19,25 @@
   <name>AWTools Parent POM</name>
   <description>POM for all AWTools projects.</description>
   
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>
+      scm:git:ssh@github.com:gluehloch/awtools-maven-pom.git
+    </connection>
+    <developerConnection>
+      scm:git:ssh@github.com:gluehloch/awtools-maven-pom.git
+    </developerConnection>
+    <url>https://github.com/gluehloch/awtools-maven-pom</url>
+  </scm>
+
   <!--
     | The build server like this repository reference, because he does not
     | known where he can find the remote repository for the parent pom. 
