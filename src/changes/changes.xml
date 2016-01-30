@@ -14,6 +14,9 @@
       <action dev="andrewinkler" type="update" date="2015-01-22">
         Updated to master pom version 3.
       </action>
+      <action>
+        Java 8
+      </action>
     </release>
  
     <release version="awtools-maven-parent-pom-26" date="2015-01-12"
