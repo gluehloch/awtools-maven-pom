@@ -129,6 +129,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.jdk>1.8</project.build.jdk>
+    <compiler.version>1.8</compiler.version>
   </properties>
 
 </project>
