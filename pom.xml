@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
@@ -7,10 +8,9 @@
   <parent>
     <groupId>de.awtools</groupId>
     <artifactId>master-pom</artifactId>
-    <version>3</version>
+    <version>5</version>
   </parent>
 
-  <groupId>de.awtools</groupId>
   <artifactId>awtools-maven-pom</artifactId>
   <version>27</version>
 
@@ -18,7 +18,7 @@
   <url>http://www.gluehloch.de</url>
   <name>AWTools Parent POM</name>
   <description>POM for all AWTools projects.</description>
-  
+
   <licenses>
     <license>
       <name>Apache License 2.0</name>
@@ -38,10 +38,8 @@
     <url>https://github.com/gluehloch/awtools-maven-pom</url>
   </scm>
 
-  <!--
-    | The build server like this repository reference, because he does not
-    | known where he can find the remote repository for the parent pom. 
-  -->
+  <!-- | The build server like this repository reference, because he does 
+    not | known where he can find the remote repository for the parent pom. -->
   <repositories>
     <!-- AWTools | Gluehloch | Betoffice Repository -->
     <repository>
@@ -73,35 +71,33 @@
   </repositories>
 
   <dependencies>
-    <!--  Logging -->
+    <!-- Logging -->
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>1.6.3</version>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-slf4j-impl</artifactId>
+      <version>2.11.0</version>
     </dependency>
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>1.6.3</version>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.11.0</version>
     </dependency>
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.16</version>
-      <scope>runtime</scope>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.11.0</version>
     </dependency>
 
     <!-- commons lang and io -->
     <dependency>
-      <groupId>commons-lang</groupId>
-      <artifactId>commons-lang</artifactId>
-      <version>2.5</version>
-      <scope>compile</scope>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.7</version>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.4</version>
+      <version>2.6</version>
       <scope>compile</scope>
     </dependency>
 
@@ -118,7 +114,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
+
   <distributionManagement>
     <site>
       <id>gluehloch-repository</id>
