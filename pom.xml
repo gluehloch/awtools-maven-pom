@@ -8,7 +8,7 @@
   <parent>
     <groupId>de.awtools</groupId>
     <artifactId>master-pom</artifactId>
-    <version>5</version>
+    <version>6-java10</version>
   </parent>
 
   <artifactId>awtools-maven-pom</artifactId>
